@@ -15,6 +15,7 @@ function App() {
         <Route path='movie/:category' element={<CategoryMovie />} />
         <Route path='movie/detail/:id' element={<MovieDetail />} />
         <Route path='movie/search/:query' element={<SearchPage />} />
+        <Route path='movie/Pages/:page' element={<moviePage />} />
 
       </Route>
 
