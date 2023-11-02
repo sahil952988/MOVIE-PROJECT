@@ -26,8 +26,8 @@ const Search = () => {
           value={formik.values.search}
           type="text"
           label="search movies"
-          color='white'
           name='search'
+          color='white'
           size='md'
           className="pr-20"
           containerProps={{
